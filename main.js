@@ -7,17 +7,18 @@ const anotherCookieBtn = document.querySelector("#btn-another-cookie");
 
 // Eventos:
 cookieBtn.addEventListener("click", handleCookieClick);
-anotherCookieBtn.addEventListener("click", handleCookieClick);
+anotherCookieBtn.addEventListener("click", handleAnotherCookieClick);
 
+// Funções:
 function handleCookieClick(e) {
-  toogleScreen();
+  toggleScreen(screen1, screen2);
 }
 
 function handleAnotherCookieClick(e) {
-  toogleScreen();
+  toggleScreen(screen2, screen1);
 }
 
-function toogleScreen() {
-  screen1.classList.toggle("hide"); // altera a class "hide" do momento (remove ou add)
-  screen2.classList.toggle("hide"); // altera a class "hide" do momento (remove ou add)
+function toggleScreen(showScreen, hideScreen) {
+  showScreen.classList.remove("hide");
+  hideScreen.classList.add("hide");
 }
