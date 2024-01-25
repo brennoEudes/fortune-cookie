@@ -9,6 +9,15 @@
     font-size: 62,5%;
 }
 
+body {
+    font-size: 1.6rem;
+
+    /* Um jeito de centralizar a caixa ao centro: */
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
 .hide {
     display: none;
   }
