@@ -11,11 +11,11 @@ anotherCookieBtn.addEventListener("click", handleAnotherCookieClick);
 
 // Funções:
 function handleCookieClick(e) {
-  toggleScreen(screen1, screen2);
+  toggleScreen(screen2, screen1);
 }
 
 function handleAnotherCookieClick(e) {
-  toggleScreen(screen2, screen1);
+  toggleScreen(screen1, screen2);
 }
 
 function toggleScreen(showScreen, hideScreen) {
