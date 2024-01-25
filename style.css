@@ -1,23 +1,59 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
-    font-family: "Montserrat", sans-serif;
-    font-size: 62,5%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 62, 5%;
+  color: #34355b;
 }
 
 body {
-    font-size: 1.6rem;
+  background: linear-gradient(45deg, #190361 0%, #b0f 100%);
+  font-size: 1.6rem;
 
-    /* Um jeito de centralizar a caixa ao centro: */
-    display: grid;
-    place-items: center;
-    height: 100vh;
+  /* Um jeito de centralizar a caixa ao centro: */
+  display: grid;
+  place-items: center;
+  height: 100vh;
 }
 
 .hide {
-    display: none;
-  }
+  display: none;
+}
+
+/* SCREEN 1*/
+.screen-1 {
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 2rem 5rem 0 rgba(0, 0, 0, 0.8);
+
+  display: flex;
+  flex-direction: column;
+  width: 40rem;
+  padding: 6.4rem;
+  gap: 1.6rem;
+
+  text-align: center;
+}
+
+h1 {
+  font-family: Montserrat;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.screen-1 p {
+  font-family: "DM Sans";
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#btn-cookie, #btn-another-cookie {
+  border: none;
+  background-color: transparent;
+}
