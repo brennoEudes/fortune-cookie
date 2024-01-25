@@ -24,19 +24,24 @@ body {
   display: none;
 }
 
-/* SCREEN 1*/
-.screen-1 {
+main {
   background-color: #fff;
   border-radius: 0.5rem;
   box-shadow: 0 2rem 5rem 0 rgba(0, 0, 0, 0.8);
 
+  width: min(
+    40rem,
+    90%
+  ); /* Faz a caixa ficar flexível p/ widths menores q 42.8rem!*/
+  text-align: center;
+  padding: 6.4rem;
+}
+
+/* SCREEN 1*/
+.screen-1 {
   display: flex;
   flex-direction: column;
-  width: 40rem;
-  padding: 6.4rem;
   gap: 1.6rem;
-
-  text-align: center;
 }
 
 h1 {
@@ -53,7 +58,18 @@ h1 {
   line-height: normal;
 }
 
-#btn-cookie, #btn-another-cookie {
+#btn-cookie,
+#btn-another-cookie {
   border: none;
   background-color: transparent;
+
+  cursor: pointer;
+}
+
+/* SCREEN 2 */
+h2 {
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: normal;
 }
