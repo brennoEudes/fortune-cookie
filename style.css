@@ -64,8 +64,7 @@ h2 {
 }
 
 /* SCREEN 2 */
-
-.screen-2 p {
+#fortune-message {
   border-radius: 0.5rem;
   background: #e4edf1;
   box-shadow: 0 2rem 5rem 0 rgba(0, 0, 0, 0.8);
