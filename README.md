@@ -3,9 +3,9 @@
 </p>
 
 ## The Project 
-The fortune cookie is a Javascript feature that illustrates a motivational phrase to empower you to face your challenges!
+The fortune cookie is a animated Javascript feature that illustrates a motivational phrase to empower you to face your challenges!
 
-Capturing the user interactions, the system randomizes ten positive phrases from different famous personalities, from Nelson Mandela to Beyoncé.
+Capturing the user interactions, the system randomizes ten positive phrases from different famous personalities, from Nelson Mandela to Beyoncé. Discover now!
 
 ## Technologies
 The technologies used were:
