@@ -30,11 +30,12 @@ main {
   box-shadow: 0 2rem 5rem 0 rgba(0, 0, 0, 0.8);
 
   width: min(
-    56rem,
+    42rem,
     90%
   ); /* Faz a caixa ficar flexível p/ widths menores q 42.8rem!*/
-  height: auto;
-  padding: 6.4rem;
+  padding: 4.2rem;
+
+  margin: 1rem;
 }
 
 /* SCREEN 1*/
@@ -55,7 +56,7 @@ h2 {
 
 .screen-1 p {
   font-family: "DM Sans";
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   font-weight: 400;
   line-height: normal;
 
@@ -96,15 +97,16 @@ h3 {
 #btn-another-cookie {
   border-radius: 4px;
   background: #ff9500;
-  padding: 16px;
+  padding: 1.6rem;
   margin-top: 1.6rem;
 
   color: #fff;
   font-family: "DM Sans";
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   font-weight: 700;
 }
 
 #btn-another-cookie:hover {
   background: #c97705;
 }
+
