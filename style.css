@@ -34,12 +34,12 @@ main {
     90%
   ); /* Faz a caixa ficar flexível p/ widths menores q 42.8rem!*/
   height: auto;
-  text-align: center;
   padding: 6.4rem;
 }
 
 /* SCREEN 1*/
-.screen-1 {
+.screen-1,
+.screen-2 {
   text-align: center;
 }
 
@@ -67,15 +67,18 @@ h2 {
   border: none;
   background-color: transparent;
 
+  /* Centraliza os btns: */
+  display: block;
+  margin: 0 auto;
   cursor: pointer;
 }
 
 /* SCREEN 2 */
-
 h3 {
   margin: 2rem;
   padding: 1rem;
 }
+
 #fortune-message {
   border-radius: 0.5rem;
   background: #e4edf1;
@@ -93,13 +96,12 @@ h3 {
 #btn-another-cookie {
   border-radius: 4px;
   background: #ff9500;
-
   padding: 16px;
-  width: 16rem;
+  margin-top: 1.6rem;
 
   color: #fff;
   font-family: "DM Sans";
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   font-weight: 700;
 }
 
