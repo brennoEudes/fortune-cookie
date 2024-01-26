@@ -30,15 +30,18 @@ main {
   box-shadow: 0 2rem 5rem 0 rgba(0, 0, 0, 0.8);
 
   width: min(
-    40rem,
+    56rem,
     90%
   ); /* Faz a caixa ficar flexível p/ widths menores q 42.8rem!*/
+  height: auto;
   text-align: center;
   padding: 6.4rem;
-
 }
 
 /* SCREEN 1*/
+.screen-1 {
+  text-align: center;
+}
 
 h1,
 h2 {
@@ -46,13 +49,17 @@ h2 {
   font-size: 2.4rem;
   font-weight: 700;
   line-height: normal;
+
+  margin-bottom: 1.4rem;
 }
 
 .screen-1 p {
   font-family: "DM Sans";
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   font-weight: 400;
   line-height: normal;
+
+  margin-bottom: 2rem;
 }
 
 #btn-cookie,
@@ -64,6 +71,11 @@ h2 {
 }
 
 /* SCREEN 2 */
+
+h3 {
+  margin: 2rem;
+  padding: 1rem;
+}
 #fortune-message {
   border-radius: 0.5rem;
   background: #e4edf1;
