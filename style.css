@@ -158,3 +158,42 @@ h3 {
   100% {
   }
 }
+
+/* MEDIA QUERIES */
+
+@media (max-width < 768px) {
+  main {
+    width: 16rem;
+    padding: 2rem;
+    margin: 0.2rem;
+  }
+
+  h1,
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  .screen-1 p {
+    font-size: 1rem;
+  }
+
+  #fortune-cookie-closed,
+  #fortune-cookie-opened {
+    width: 10rem;
+    height: auto;
+  }
+
+  h3 {
+    margin: 0.2rem;
+    padding: 0.2rem;
+  }
+
+  #fortune-message {
+    font-size: 1.2rem;
+  }
+
+  #btn-another-cookie {
+    padding: 1.2rem;
+    font-size: 0.8rem;
+  }
+}
