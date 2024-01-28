@@ -160,8 +160,7 @@ h3 {
 }
 
 /* MEDIA QUERIES */
-
-@media (max-width < 768px) {
+@media (max-width: 767px) {
   main {
     width: 16rem;
     padding: 2rem;
